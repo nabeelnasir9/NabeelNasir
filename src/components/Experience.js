@@ -71,7 +71,7 @@ const Experience = () => {
             /> */}
 
             <Details
-              position="Project Manager"
+              position="Full Stack Developer"
               company="CbSol"
               companyLink="https://cbsol.ai"
               time="Summer 2021"
@@ -93,8 +93,8 @@ const Experience = () => {
 
             <Details
               position="Software Developer Intern"
-              company="codSeed"
-              companyLink="https://codseed.com"
+              company="Ghost Solutions"
+              companyLink="https://ghostsolutions.com"
               time="August 2020"
               address="Lahore, Pakistan"
               work="Worked on a team responsible for developing new features for

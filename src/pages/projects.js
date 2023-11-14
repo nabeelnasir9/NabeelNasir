@@ -7,12 +7,14 @@ import Image from "next/image";
 import Link from "next/link";
 import proj1 from "../../public/images/projects/2.png";
 import proj2 from "../../public/images/projects/3.png";
-import proj3 from "../../public/images/projects/1.png";
-import proj4 from "../../public/images/projects/4.png";
+import proj3 from "../../public/images/projects/agency-website-cover-image.jpg";
+import proj4 from "../../public/images/projects/fashion-studio-website.jpg";
 import proj5 from "../../public/images/projects/5.png";
 import proj6 from "../../public/images/projects/6.png";
 import proj7 from "../../public/images/projects/7.png";
 import proj8 from "../../public/images/projects/8.png";
+import proj9 from "../../public/images/projects/4.png";
+
 
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -205,17 +207,18 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Health and Home Insurance Website"
-                img={proj3}
-                link="https://sureti.com/"
+                type="Blog Website"
+                img={proj5}
+                title="HeadOffice (MetaVerse)"
+                link="https://headoffice.space"
                 github="https://github.com/nabeelnasir9"
               />
             </div>
+            
             <div className="col-span-12">
               <FeaturedProject
                 type="Website Template"
-                img={proj4}
+                img={proj9}
                 title="StinkBait Template"
                 summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
                 link="https://stikbait.io"
@@ -226,17 +229,17 @@ export default function Projects() {
               <Project
                 type="Website Template"
                 img={proj4}
-                title="StinkBait Template"
-                link="https://stikbait.io"
+                title="Fashion Studio"
+                link="https://github.com/nabeelnasir9"
                 github="https://github.com/nabeelnasir9"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Blog Website"
-                img={proj5}
-                title="HeadOffice (MetaVerse)"
-                link="https://headoffice.space"
+                type="Website"
+                title="Health and Home Insurance Website"
+                img={proj3}
+                link="https://github.com/nabeelnasir9"
                 github="https://github.com/nabeelnasir9"
               />
             </div>
